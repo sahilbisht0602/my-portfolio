@@ -28,7 +28,7 @@ const HeroSection = () => {
                 1000,
                 "Next Js",
                 1000,
-                "TypeScript",
+                "Much More...",
                 1000,
               ]}
               wrapper="span"
@@ -65,11 +65,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full  w-[150px] h-[150px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.jpg"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full max-sm:my-10"
               width={300}
               height={300}
             />
