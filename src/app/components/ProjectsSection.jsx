@@ -16,7 +16,7 @@ const projectsData = [
   {
     id: 3,
     title: "Usability hub clone",
-    description: "Project 3 description",
+    description: "Clone of a usability hub made using tailwind and next js",
     image: "/images/projects/3.png",
     previewUrl: "https://usabilitybysahil.netlify.app",
   },
