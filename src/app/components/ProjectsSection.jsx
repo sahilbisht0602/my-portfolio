@@ -8,16 +8,10 @@ const projectsData = [
   {
     id: 1,
     title: "CarInfo",
-    description: "A complete solution for car owners",
+    description:
+      "You can Discover everything under one roof for RTO vehicle information including buying and selling cars, challan search, and insurance. Get insights about your car and much more",
     image: "/images/projects/1.png",
     previewUrl: "https://carinfo.app",
-  },
-  {
-    id: 2,
-    title: "Devflow",
-    description: "Stackoverflow flow in my way",
-    image: "/images/projects/2.png",
-    previewUrl: "https://devflow-rose.vercel.app/",
   },
   {
     id: 3,
@@ -36,9 +30,18 @@ const projectsData = [
   {
     id: 5,
     title: "Nike",
-    description: "A nike clone",
+    description:
+      "A nike clone which i have made using tailwind css with same functionality using states",
     image: "/images/projects/5.png",
     previewUrl: "https://nikebysahil.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Devflow",
+    description:
+      "I have made this devflow where devlopers can connect comment on each other post, I have added many feature like auth, upvote, downvote, user profile, clerk. and I have used mongodb for storing user info and other models",
+    image: "/images/projects/2.png",
+    previewUrl: "https://devflow-rose.vercel.app/",
   },
 ];
 
