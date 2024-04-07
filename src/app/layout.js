@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Welcome to Sahil Portfolio",
   description:
-    "you can hire me for creating best web application which will be seo friendly",
+    "Discover the craftsmanship of a frontend developer through a captivating portfolio showcasing innovative designs and seamless user experiences. Explore my projects and let's bring your ideas to life together.",
+  icons: {
+    icon: "/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
